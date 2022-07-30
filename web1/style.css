@@ -1,0 +1,44 @@
+.abc {
+    color: aqua;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.tableDesign th td {
+    color: blueviolet;
+    border: 2px solid;
+    height: 60px;
+    width: 100%;
+
+}
+
+#boldid {
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    font-size: 50PX;
+}
+
+.carousel-inner {
+    height: 600px;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
